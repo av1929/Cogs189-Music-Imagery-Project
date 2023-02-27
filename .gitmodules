@@ -1,0 +1,6 @@
+[submodule "GrFNNRhythm"]
+	path = GrFNNRhythm
+	url = git@github.com:3x10e8/GrFNNRhythm.git
+[submodule "stim/GrFNNRhythm"]
+	path = stim/GrFNNRhythm
+	url = git@github.com:3x10e8/GrFNNRhythm.git

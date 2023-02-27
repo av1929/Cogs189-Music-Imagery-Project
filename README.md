@@ -14,6 +14,12 @@ https://www.psychopy.org/download.html#pip-install
 
 However, it is not clear if the pip install would get all the dependencies to allow running the psychopy GUI from command line as well...
 
+## Data Collection
+COGS189 user guide for OpenBCI GUI setup
+External Triggering
+Cyton v33
+
+
 ## Analysis Pipeline
 
 
