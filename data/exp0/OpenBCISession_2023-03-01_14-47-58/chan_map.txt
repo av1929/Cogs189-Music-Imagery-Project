@@ -1,0 +1,11 @@
+Cyton 	004
+REF	CPz
+GND	AFz
+1	Fz
+2	Cz
+3	Pz
+4	Fp1
+5	F7
+6	T6
+7 	T4
+8	T3

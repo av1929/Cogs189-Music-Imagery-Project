@@ -1,0 +1,379 @@
+1.6569 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.3832 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1680, 1050]. Using actual size
+16.5894 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+16.5897 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fe813cf0970>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fe7e3b806d0>, multiSample=False, name='window1', numSamples=2, pos=[420.0, 262.5], screen=0, size=array([3360, 2100]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+16.5898 	EXP 	window1: mouseVisible = True
+16.5904 	EXP 	window1: mouseVisible = False
+16.5904 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+16.5904 	EXP 	window1: recordFrameIntervals = False
+16.7559 	EXP 	window1: recordFrameIntervals = True
+16.8113 	WARNING 	t of last frame was 22.10ms (=1/45)
+16.9287 	WARNING 	t of last frame was 22.86ms (=1/43)
+17.0451 	WARNING 	t of last frame was 22.58ms (=1/44)
+17.1275 	WARNING 	t of last frame was 21.57ms (=1/46)
+17.2108 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+18.4286 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+20.3993 	EXP 	Created Introduction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Introduction', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4132 	EXP 	Created listen_instr = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='listen_instr', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+20.4166 	EXP 	Created cross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.4316 	EXP 	Sound beat1 set volume 1.000
+20.4345 	EXP 	Sound cue set volume 1.000
+20.4367 	EXP 	Created cross_listen = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([-1., -1., -1.]), lineWidth=0.01, name='cross_listen', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.01, 0.01]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+20.4408 	EXP 	Created Instruction_next_trial = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instruction_next_trial', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='You will now listen to the next music piece.', units='height', win=Window(...), wrapWidth=1)
+20.4459 	EXP 	Created Ending = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Ending', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='This is the end of the experiment. Thank you. ', units='height', win=Window(...), wrapWidth=1)
+20.4687 	EXP 	Introduction: autoDraw = True
+24.4599 	EXP 	listen_instr: autoDraw = True
+24.4724 	EXP 	Introduction: autoDraw = False
+90.4923 	DATA 	Keypress: space
+90.4990 	EXP 	Introduction: autoDraw = False
+90.4990 	EXP 	listen_instr: autoDraw = False
+90.4990 	EXP 	cross: autoDraw = True
+95.4880 	EXP 	Created sequence: random, trialTypes=1, nReps=10, seed=None
+95.4883 	EXP 	New trial (rep=0, index=0): None
+95.4941 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+95.4947 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+95.4950 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+95.5097 	EXP 	cross: autoDraw = False
+95.5097 	EXP 	cross_listen: autoDraw = True
+107.5035 	EXP 	cross_listen: autoDraw = False
+107.5035 	EXP 	Instruction_next_trial: autoDraw = True
+108.4871 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+108.5059 	EXP 	Instruction_next_trial: autoDraw = False
+108.5059 	EXP 	cross_listen: autoDraw = True
+120.5033 	EXP 	cross_listen: autoDraw = False
+120.5033 	EXP 	Instruction_next_trial: autoDraw = True
+121.4929 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+121.5077 	EXP 	Instruction_next_trial: autoDraw = False
+121.5077 	EXP 	cross_listen: autoDraw = True
+133.5029 	EXP 	cross_listen: autoDraw = False
+133.5029 	EXP 	Instruction_next_trial: autoDraw = True
+134.4866 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+134.5029 	EXP 	Instruction_next_trial: autoDraw = False
+134.5029 	EXP 	cross_listen: autoDraw = True
+146.5051 	EXP 	cross_listen: autoDraw = False
+146.5051 	EXP 	Instruction_next_trial: autoDraw = True
+147.4861 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+147.5110 	EXP 	Instruction_next_trial: autoDraw = False
+147.5110 	EXP 	cross_listen: autoDraw = True
+159.5021 	EXP 	cross_listen: autoDraw = False
+159.5021 	EXP 	Instruction_next_trial: autoDraw = True
+160.4858 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+160.5024 	EXP 	Instruction_next_trial: autoDraw = False
+160.5024 	EXP 	cross_listen: autoDraw = True
+172.5058 	EXP 	cross_listen: autoDraw = False
+172.5058 	EXP 	Instruction_next_trial: autoDraw = True
+173.4856 	EXP 	New trial (rep=1, index=0): None
+173.4905 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+173.4909 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+173.4912 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+173.5094 	EXP 	Instruction_next_trial: autoDraw = False
+173.5094 	EXP 	cross_listen: autoDraw = True
+185.5015 	EXP 	cross_listen: autoDraw = False
+185.5015 	EXP 	Instruction_next_trial: autoDraw = True
+186.4904 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+186.5015 	EXP 	Instruction_next_trial: autoDraw = False
+186.5015 	EXP 	cross_listen: autoDraw = True
+198.5012 	EXP 	cross_listen: autoDraw = False
+198.5012 	EXP 	Instruction_next_trial: autoDraw = True
+199.4900 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+199.5012 	EXP 	Instruction_next_trial: autoDraw = False
+199.5012 	EXP 	cross_listen: autoDraw = True
+211.5011 	EXP 	cross_listen: autoDraw = False
+211.5011 	EXP 	Instruction_next_trial: autoDraw = True
+212.4844 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+212.5011 	EXP 	Instruction_next_trial: autoDraw = False
+212.5011 	EXP 	cross_listen: autoDraw = True
+224.5007 	EXP 	cross_listen: autoDraw = False
+224.5007 	EXP 	Instruction_next_trial: autoDraw = True
+225.4890 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+225.5005 	EXP 	Instruction_next_trial: autoDraw = False
+225.5005 	EXP 	cross_listen: autoDraw = True
+237.5003 	EXP 	cross_listen: autoDraw = False
+237.5003 	EXP 	Instruction_next_trial: autoDraw = True
+238.4894 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+238.5003 	EXP 	Instruction_next_trial: autoDraw = False
+238.5003 	EXP 	cross_listen: autoDraw = True
+250.5000 	EXP 	cross_listen: autoDraw = False
+250.5000 	EXP 	Instruction_next_trial: autoDraw = True
+251.4888 	EXP 	New trial (rep=2, index=0): None
+251.4937 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+251.4941 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+251.4943 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+251.5040 	EXP 	Instruction_next_trial: autoDraw = False
+251.5040 	EXP 	cross_listen: autoDraw = True
+263.4997 	EXP 	cross_listen: autoDraw = False
+263.4997 	EXP 	Instruction_next_trial: autoDraw = True
+264.4836 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+264.4995 	EXP 	Instruction_next_trial: autoDraw = False
+264.4995 	EXP 	cross_listen: autoDraw = True
+276.5043 	EXP 	cross_listen: autoDraw = False
+276.5043 	EXP 	Instruction_next_trial: autoDraw = True
+277.4830 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+277.5041 	EXP 	Instruction_next_trial: autoDraw = False
+277.5041 	EXP 	cross_listen: autoDraw = True
+289.4990 	EXP 	cross_listen: autoDraw = False
+289.4990 	EXP 	Instruction_next_trial: autoDraw = True
+290.4882 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+290.4989 	EXP 	Instruction_next_trial: autoDraw = False
+290.4989 	EXP 	cross_listen: autoDraw = True
+302.4988 	EXP 	cross_listen: autoDraw = False
+302.4988 	EXP 	Instruction_next_trial: autoDraw = True
+303.4858 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+303.4987 	EXP 	Instruction_next_trial: autoDraw = False
+303.4987 	EXP 	cross_listen: autoDraw = True
+315.5035 	EXP 	cross_listen: autoDraw = False
+315.5035 	EXP 	Instruction_next_trial: autoDraw = True
+316.4820 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+316.4983 	EXP 	Instruction_next_trial: autoDraw = False
+316.4983 	EXP 	cross_listen: autoDraw = True
+328.4981 	EXP 	cross_listen: autoDraw = False
+328.4981 	EXP 	Instruction_next_trial: autoDraw = True
+329.4816 	EXP 	New trial (rep=3, index=0): None
+329.4861 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+329.4865 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+329.4867 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+329.4980 	EXP 	Instruction_next_trial: autoDraw = False
+329.4980 	EXP 	cross_listen: autoDraw = True
+341.4978 	EXP 	cross_listen: autoDraw = False
+341.4978 	EXP 	Instruction_next_trial: autoDraw = True
+342.4813 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+342.4978 	EXP 	Instruction_next_trial: autoDraw = False
+342.4978 	EXP 	cross_listen: autoDraw = True
+354.4975 	EXP 	cross_listen: autoDraw = False
+354.4975 	EXP 	Instruction_next_trial: autoDraw = True
+355.4809 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+355.4974 	EXP 	Instruction_next_trial: autoDraw = False
+355.4974 	EXP 	cross_listen: autoDraw = True
+367.4969 	EXP 	cross_listen: autoDraw = False
+367.4969 	EXP 	Instruction_next_trial: autoDraw = True
+368.4853 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+368.4970 	EXP 	Instruction_next_trial: autoDraw = False
+368.4970 	EXP 	cross_listen: autoDraw = True
+380.5005 	EXP 	cross_listen: autoDraw = False
+380.5005 	EXP 	Instruction_next_trial: autoDraw = True
+381.4804 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+381.5004 	EXP 	Instruction_next_trial: autoDraw = False
+381.5004 	EXP 	cross_listen: autoDraw = True
+393.4964 	EXP 	cross_listen: autoDraw = False
+393.4964 	EXP 	Instruction_next_trial: autoDraw = True
+394.4809 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+394.4963 	EXP 	Instruction_next_trial: autoDraw = False
+394.4963 	EXP 	cross_listen: autoDraw = True
+406.5007 	EXP 	cross_listen: autoDraw = False
+406.5007 	EXP 	Instruction_next_trial: autoDraw = True
+407.4798 	EXP 	New trial (rep=4, index=0): None
+407.4848 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+407.4853 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+407.4855 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+407.5033 	EXP 	Instruction_next_trial: autoDraw = False
+407.5033 	EXP 	cross_listen: autoDraw = True
+419.4957 	EXP 	cross_listen: autoDraw = False
+419.4957 	EXP 	Instruction_next_trial: autoDraw = True
+420.4816 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+420.4956 	EXP 	Instruction_next_trial: autoDraw = False
+420.4956 	EXP 	cross_listen: autoDraw = True
+432.5003 	EXP 	cross_listen: autoDraw = False
+432.5003 	EXP 	Instruction_next_trial: autoDraw = True
+433.4838 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+433.4953 	EXP 	Instruction_next_trial: autoDraw = False
+433.4953 	EXP 	cross_listen: autoDraw = True
+445.4952 	EXP 	cross_listen: autoDraw = False
+445.4952 	EXP 	Instruction_next_trial: autoDraw = True
+446.4787 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+446.4953 	EXP 	Instruction_next_trial: autoDraw = False
+446.4953 	EXP 	cross_listen: autoDraw = True
+458.4948 	EXP 	cross_listen: autoDraw = False
+458.4948 	EXP 	Instruction_next_trial: autoDraw = True
+459.4786 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+459.4947 	EXP 	Instruction_next_trial: autoDraw = False
+459.4947 	EXP 	cross_listen: autoDraw = True
+471.4945 	EXP 	cross_listen: autoDraw = False
+471.4945 	EXP 	Instruction_next_trial: autoDraw = True
+472.4782 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+472.4969 	EXP 	Instruction_next_trial: autoDraw = False
+472.4969 	EXP 	cross_listen: autoDraw = True
+484.4969 	EXP 	cross_listen: autoDraw = False
+484.4969 	EXP 	Instruction_next_trial: autoDraw = True
+485.4835 	EXP 	New trial (rep=5, index=0): None
+485.4886 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+485.4891 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+485.4894 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+485.4989 	EXP 	Instruction_next_trial: autoDraw = False
+485.4989 	EXP 	cross_listen: autoDraw = True
+497.4938 	EXP 	cross_listen: autoDraw = False
+497.4938 	EXP 	Instruction_next_trial: autoDraw = True
+498.4773 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+498.4938 	EXP 	Instruction_next_trial: autoDraw = False
+498.4938 	EXP 	cross_listen: autoDraw = True
+510.4996 	EXP 	cross_listen: autoDraw = False
+510.4996 	EXP 	Instruction_next_trial: autoDraw = True
+511.4770 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+511.4936 	EXP 	Instruction_next_trial: autoDraw = False
+511.4936 	EXP 	cross_listen: autoDraw = True
+523.4969 	EXP 	cross_listen: autoDraw = False
+523.4969 	EXP 	Instruction_next_trial: autoDraw = True
+524.4827 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+524.4930 	EXP 	Instruction_next_trial: autoDraw = False
+524.4930 	EXP 	cross_listen: autoDraw = True
+536.4928 	EXP 	cross_listen: autoDraw = False
+536.4928 	EXP 	Instruction_next_trial: autoDraw = True
+537.4769 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+537.4971 	EXP 	Instruction_next_trial: autoDraw = False
+537.4971 	EXP 	Instruction_next_trial: autoDraw = False
+537.4971 	EXP 	cross_listen: autoDraw = True
+549.5091 	EXP 	cross_listen: autoDraw = False
+549.5091 	EXP 	Instruction_next_trial: autoDraw = True
+550.4794 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+550.4924 	EXP 	Instruction_next_trial: autoDraw = False
+550.4924 	EXP 	cross_listen: autoDraw = True
+562.4923 	EXP 	cross_listen: autoDraw = False
+562.4923 	EXP 	cross_listen: autoDraw = False
+562.4923 	EXP 	Instruction_next_trial: autoDraw = True
+563.4763 	EXP 	New trial (rep=6, index=0): None
+563.4824 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+563.4831 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+563.4833 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+563.4939 	EXP 	Instruction_next_trial: autoDraw = False
+563.4939 	EXP 	Instruction_next_trial: autoDraw = False
+563.4939 	EXP 	cross_listen: autoDraw = True
+575.5085 	EXP 	cross_listen: autoDraw = False
+575.5085 	EXP 	Instruction_next_trial: autoDraw = True
+576.4817 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+576.4919 	EXP 	Instruction_next_trial: autoDraw = False
+576.4919 	EXP 	cross_listen: autoDraw = True
+588.4978 	EXP 	cross_listen: autoDraw = False
+588.4978 	EXP 	cross_listen: autoDraw = False
+588.4978 	EXP 	Instruction_next_trial: autoDraw = True
+589.4918 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+589.5102 	EXP 	Instruction_next_trial: autoDraw = False
+589.5102 	EXP 	cross_listen: autoDraw = True
+601.5078 	EXP 	cross_listen: autoDraw = False
+601.5078 	EXP 	Instruction_next_trial: autoDraw = True
+602.4916 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+602.5116 	EXP 	Instruction_next_trial: autoDraw = False
+602.5116 	EXP 	cross_listen: autoDraw = True
+614.5128 	EXP 	cross_listen: autoDraw = False
+614.5128 	EXP 	Instruction_next_trial: autoDraw = True
+615.4797 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+615.4908 	EXP 	Instruction_next_trial: autoDraw = False
+615.4908 	EXP 	cross_listen: autoDraw = True
+627.4905 	EXP 	cross_listen: autoDraw = False
+627.4905 	EXP 	Instruction_next_trial: autoDraw = True
+628.4747 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+628.4916 	EXP 	Instruction_next_trial: autoDraw = False
+628.4916 	EXP 	Instruction_next_trial: autoDraw = False
+628.4916 	EXP 	cross_listen: autoDraw = True
+640.5068 	EXP 	cross_listen: autoDraw = False
+640.5068 	EXP 	Instruction_next_trial: autoDraw = True
+641.4802 	EXP 	New trial (rep=7, index=0): None
+641.4852 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+641.4858 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+641.4860 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+641.4954 	EXP 	Instruction_next_trial: autoDraw = False
+641.4954 	EXP 	cross_listen: autoDraw = True
+653.5066 	EXP 	cross_listen: autoDraw = False
+653.5066 	EXP 	Instruction_next_trial: autoDraw = True
+654.4906 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+654.5064 	EXP 	Instruction_next_trial: autoDraw = False
+654.5064 	EXP 	cross_listen: autoDraw = True
+666.5062 	EXP 	cross_listen: autoDraw = False
+666.5062 	EXP 	Instruction_next_trial: autoDraw = True
+667.4792 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+667.4896 	EXP 	Instruction_next_trial: autoDraw = False
+667.4896 	EXP 	cross_listen: autoDraw = True
+679.4893 	EXP 	cross_listen: autoDraw = False
+679.4893 	EXP 	cross_listen: autoDraw = False
+679.4893 	EXP 	Instruction_next_trial: autoDraw = True
+680.4733 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+680.4945 	EXP 	Instruction_next_trial: autoDraw = False
+680.4945 	EXP 	Instruction_next_trial: autoDraw = False
+680.4945 	EXP 	cross_listen: autoDraw = True
+692.5115 	EXP 	cross_listen: autoDraw = False
+692.5115 	EXP 	Instruction_next_trial: autoDraw = True
+693.4908 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+693.5057 	EXP 	Instruction_next_trial: autoDraw = False
+693.5057 	EXP 	cross_listen: autoDraw = True
+705.5084 	EXP 	cross_listen: autoDraw = False
+705.5084 	EXP 	Instruction_next_trial: autoDraw = True
+706.4888 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+706.5053 	EXP 	Instruction_next_trial: autoDraw = False
+706.5053 	EXP 	cross_listen: autoDraw = True
+718.5059 	EXP 	cross_listen: autoDraw = False
+718.5059 	EXP 	Instruction_next_trial: autoDraw = True
+719.4885 	EXP 	New trial (rep=8, index=0): None
+719.4936 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+719.4940 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+719.4943 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+719.5048 	EXP 	Instruction_next_trial: autoDraw = False
+719.5048 	EXP 	cross_listen: autoDraw = True
+731.5047 	EXP 	cross_listen: autoDraw = False
+731.5047 	EXP 	Instruction_next_trial: autoDraw = True
+732.4883 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+732.5055 	EXP 	Instruction_next_trial: autoDraw = False
+732.5055 	EXP 	cross_listen: autoDraw = True
+744.5042 	EXP 	cross_listen: autoDraw = False
+744.5042 	EXP 	Instruction_next_trial: autoDraw = True
+745.4879 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+745.5060 	EXP 	Instruction_next_trial: autoDraw = False
+745.5060 	EXP 	cross_listen: autoDraw = True
+757.5039 	EXP 	cross_listen: autoDraw = False
+757.5039 	EXP 	Instruction_next_trial: autoDraw = True
+758.4773 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+758.4878 	EXP 	Instruction_next_trial: autoDraw = False
+758.4878 	EXP 	cross_listen: autoDraw = True
+770.4898 	EXP 	cross_listen: autoDraw = False
+770.4898 	EXP 	cross_listen: autoDraw = False
+770.4898 	EXP 	Instruction_next_trial: autoDraw = True
+771.4873 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+771.5093 	EXP 	Instruction_next_trial: autoDraw = False
+771.5093 	EXP 	cross_listen: autoDraw = True
+783.5034 	EXP 	cross_listen: autoDraw = False
+783.5034 	EXP 	Instruction_next_trial: autoDraw = True
+784.4872 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+784.5035 	EXP 	Instruction_next_trial: autoDraw = False
+784.5035 	EXP 	cross_listen: autoDraw = True
+796.5030 	EXP 	cross_listen: autoDraw = False
+796.5030 	EXP 	Instruction_next_trial: autoDraw = True
+797.4868 	EXP 	New trial (rep=9, index=0): None
+797.4918 	EXP 	Imported stimuli_list.xlsx as conditions, 6 conditions, 1 params
+797.4923 	EXP 	Created sequence: random, trialTypes=6, nReps=1, seed=None
+797.4925 	EXP 	New trial (rep=0, index=0): {'stimuli_name': 'audio/exp0/kick_mp2.wav'}
+797.5091 	EXP 	Instruction_next_trial: autoDraw = False
+797.5091 	EXP 	cross_listen: autoDraw = True
+809.5027 	EXP 	cross_listen: autoDraw = False
+809.5027 	EXP 	Instruction_next_trial: autoDraw = True
+810.4864 	EXP 	New trial (rep=0, index=1): {'stimuli_name': 'audio/exp0/kick_mp1.wav'}
+810.5026 	EXP 	Instruction_next_trial: autoDraw = False
+810.5026 	EXP 	cross_listen: autoDraw = True
+822.5024 	EXP 	cross_listen: autoDraw = False
+822.5024 	EXP 	Instruction_next_trial: autoDraw = True
+823.4859 	EXP 	New trial (rep=0, index=2): {'stimuli_name': 'audio/exp0/snare_iso.wav'}
+823.5071 	EXP 	Instruction_next_trial: autoDraw = False
+823.5071 	EXP 	cross_listen: autoDraw = True
+835.5020 	EXP 	cross_listen: autoDraw = False
+835.5020 	EXP 	Instruction_next_trial: autoDraw = True
+836.4860 	EXP 	New trial (rep=0, index=3): {'stimuli_name': 'audio/exp0/snare_mp2.wav'}
+836.5019 	EXP 	Instruction_next_trial: autoDraw = False
+836.5019 	EXP 	cross_listen: autoDraw = True
+848.5016 	EXP 	cross_listen: autoDraw = False
+848.5016 	EXP 	Instruction_next_trial: autoDraw = True
+849.4853 	EXP 	New trial (rep=0, index=4): {'stimuli_name': 'audio/exp0/snare_mp1.wav'}
+849.5017 	EXP 	Instruction_next_trial: autoDraw = False
+849.5017 	EXP 	cross_listen: autoDraw = True
+861.5015 	EXP 	cross_listen: autoDraw = False
+861.5015 	EXP 	Instruction_next_trial: autoDraw = True
+862.4850 	EXP 	New trial (rep=0, index=5): {'stimuli_name': 'audio/exp0/kick_iso.wav'}
+862.5055 	EXP 	Instruction_next_trial: autoDraw = False
+862.5055 	EXP 	cross_listen: autoDraw = True
+874.5010 	EXP 	cross_listen: autoDraw = False
+874.5010 	EXP 	Instruction_next_trial: autoDraw = True
+875.5011 	EXP 	Instruction_next_trial: autoDraw = False
+875.5011 	EXP 	Ending: autoDraw = True
+878.5011 	EXP 	Ending: autoDraw = False
+878.7790 	EXP 	window1: mouseVisible = True
